@@ -1,0 +1,10 @@
+INSERT INTO Student1 (sin, firstName, mi, lastName, grade) VALUES('1','George','L','Zhou','A');
+INSERT INTO Student1 (sin, firstName, mi, lastName, grade) VALUES('2','Nareen','D','Walugi','A');
+INSERT INTO Student1 (sin, firstName, mi, lastName, grade) VALUES('3','Michael','D','Lore','A');
+INSERT INTO Student1 (sin, firstName, mi, lastName, grade) VALUES('4','Susan','S','Penn','B');
+INSERT INTO Student1 (sin, firstName, mi, lastName, grade) VALUES('5','Ayse','C','Collins','D');
+INSERT INTO Student1 (sin, firstName, mi, lastName, grade) VALUES('6','Kylo','D','Ren','S');
+INSERT INTO Student1 (sin, firstName, mi, lastName, grade) VALUES('7','Aisha','E','Knott','A');
+INSERT INTO Student1 (sin, firstName, mi, lastName, grade) VALUES('8','Fiona','F','Lamperage','A');
+INSERT INTO Student1 (sin, firstName, mi, lastName, grade) VALUES('9','Malika','M','Mvgrath','C');
+INSERT INTO Student1 (sin, firstName, mi, lastName, grade) VALUES('10','Christie','T','Teach','C+');

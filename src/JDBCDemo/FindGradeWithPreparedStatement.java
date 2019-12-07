@@ -79,11 +79,11 @@ public class FindGradeWithPreparedStatement extends Application {
 
             //establish a connection
             Connection connection = DriverManager.getConnection(
-                    "jdvc:oracle:thin:@oracle1.centennialcollege.ca:1521:SQLD",
-                    "COMP214_F17_156",
+                    "jdbc:oracle:thin:@oracle1.centennialcollege.ca:1521:SQLD",
+                    "COMP228_F19_sy_90",
                     "password");
             System.out.println("Database connected.");
-            String queryString = "select firstName, mi, lastName, grade from Student where sin = ?";
+            String queryString = "select firstName, mi, lastName, grade from Student1 where sin = ?";
             //create a statement
             preparedStatement = connection.prepareStatement(queryString);
         } catch (Exception ex) {
